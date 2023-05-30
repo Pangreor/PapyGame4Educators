@@ -4,7 +4,11 @@
 Docker and docker compose
 
 ## Installation
-Clone this repository and then run
+Clone this repository 
+```
+git clone --recurse-submodules https://github.com/polyglot-edu/tryPolyglot.git
+```
+and then run
 ```
 docker compose build
 docker compose up
