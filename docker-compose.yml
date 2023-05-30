@@ -6,6 +6,7 @@ services:
       context: ./node-editor
       args:
         - TEST_MODE=true
+        - BACK_URL=http://localhost:5001
     ports:
       - 3000:3000
     depends_on:
@@ -15,7 +16,7 @@ services:
   backend:
     build: ./backend
     ports:
-      - 5000:5000
+      - 5001:5000
     # volumes:
     #   - ./:/backend
     environment:
