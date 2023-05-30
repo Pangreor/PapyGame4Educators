@@ -1,4 +1,4 @@
-# Try Polygloy
+# Try Polyglot
 
 ## Requirements
 Docker and docker compose
