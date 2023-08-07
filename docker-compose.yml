@@ -24,6 +24,8 @@ services:
       - CORS_ORIGINS=http://localhost:3000
       - COOKIE_KEY=any_long_and_random_string
       - TEST_MODE=true
+      - OPENAI_SECRET_KEY=INSERT_VALUE
+      - OPENAI_ENDPOINT=INSERT_VALUE
     depends_on:
       mongodb:
         condition: service_healthy
