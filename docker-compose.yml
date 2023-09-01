@@ -18,7 +18,8 @@ services:
     ports:
       - 5001:5000
     # volumes:
-    #   - ./:/backend
+    #   - ./backend:/backend
+    # command: npm run dev
     environment:
       - MONGODB_URI=mongodb://prova:SECRET@mongodb:27017
       - CORS_ORIGINS=http://localhost:3000
